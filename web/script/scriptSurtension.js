@@ -9,6 +9,7 @@ socket.addEventListener('open', (e) => {
     console.log('connected to the server');
 });
 
+// Actualise la valeur de tension lorsque le curseur bouge
 range.addEventListener('input', () => {
     tension.textContent = range.value;
     socket.send(range.value);
