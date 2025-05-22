@@ -1,0 +1,39 @@
+h1, p{
+    color: #fdfaf2;
+}
+
+
+body{
+    background-color: #fcfaf7;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.men{
+    font-size: 100px;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: #96cd32;
+    color: #fdfaf2;
+    transition: 0.3s;
+}
+.men:hover{
+    background-color: #41a57d;
+    transform: scale(1.01);
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1423dc;
+    border-radius: 10px;
+    position: sticky;
+    padding: 10px;
+    margin: 15px;
+
+}
+#menue{
+    display: flex;
+    gap: 10px;
+    background-color: #1423dc;
+}

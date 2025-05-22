@@ -1,0 +1,42 @@
+.couleur {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+#BleuFoncé {background-color: rgb(48, 68, 133)}
+#Bleuclair {background-color: rgb(72, 137, 235)}
+#BleuFoncé {background-color: rgb(206, 206, 255)}
+#jaune {background-color: rgb(255, 187, 0)}
+#rouge {background-color: rgb(230, 20, 20)}
+
+div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+}
+
+input{
+    min-width: 200px;
+    margin-left: 20px;
+}
+
+#légende{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.texte{
+    font-size: 40px;
+}
+
+label{
+    font-size: 60px;
+} 
+
+input[type="range"]{
+    width: 75%;
+    height: 70px;
+}
